@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sasi's Puzzle Quest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="sudoku">
+  <main class="page-fade">
+    <section class="puzzle-card">
+      <a href="unlocked.html" id="skip-link" class="skip-link">Skip Puzzle</a>
+      <p class="subtitle">Balance the rows and columns with numbers 1 to 4</p>
+      <div id="sudoku-alert" class="alert">Keep the grid neat and green.</div>
+      <div id="sudoku-grid" class="sudoku-grid"></div>
+      <div class="button-row">
+        <button id="check-button" class="btn btn-primary">Check Solution</button>
+        <button id="reset-button" class="btn btn-secondary">New Puzzle</button>
+      </div>
+    </section>
+    <div id="confetti-container" class="confetti-container"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
